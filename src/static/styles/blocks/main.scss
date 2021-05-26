@@ -1,0 +1,36 @@
+.main {
+    text-align: center;
+    margin-top: 150px;
+    &__img {
+        border-radius: 50%;
+    }
+    h2 {
+        margin: 30px 0;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 34px;
+        color: #1A1A1A;
+    }
+    a>img {
+        margin-bottom: 130px;
+        margin-left: 25px;
+    }
+    &__text {
+        margin-bottom: 25px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 27px;
+        color: #555555;
+        letter-spacing: 2px;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 17px;
+        color: #1A1A1A;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+}

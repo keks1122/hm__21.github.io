@@ -1,0 +1,28 @@
+    .header__nav {
+        margin-top: 45px;
+        ul {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            .header__li {
+                list-style: none;
+                margin-right: 65px;
+                a {
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 149%;
+                    color: #1A1A1A;
+                    text-decoration: none;
+                }
+                a:hover {
+                    background: #3F51B5;
+                    padding: 4px 9px;
+                    color: #fff;
+                }
+                li:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
